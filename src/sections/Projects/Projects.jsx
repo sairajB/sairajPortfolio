@@ -1,8 +1,7 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-//import fitLift from '../../assets/fitlift.png';
+import tracklytics from '../../assets/tracklytics.png'
+import waveplay from '../../assets/waveplay.png'
+import agriaid from '../../assets/agriaid.png'
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,19 +10,19 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
+          src={tracklytics}
           link="https://github.com/sairajB/tracklytics"
           h3="TrackLytics"
           p="Price Tracker"
         />
         <ProjectCard
-          src={freshBurger}
+          src={agriaid}
           link="https://github.com/sairajB/agriAid"
           h3="AgriAid"
           p="Crop Disease Prediction"
         />
         <ProjectCard
-          src={hipsster}
+          src={waveplay}
           link="https://github.com/sairajB/wavePlay"
           h3="WavePlay"
           p="Gesture Control"
