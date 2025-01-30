@@ -13,7 +13,7 @@ function Projects() {
           src={tracklytics}
           link="https://github.com/sairajB/tracklytics"
           h3="TrackLytics"
-          p="Price Tracker"
+          p="Amazon Price Tracker"
         />
         <ProjectCard
           src={agriaid}
@@ -25,7 +25,7 @@ function Projects() {
           src={waveplay}
           link="https://github.com/sairajB/wavePlay"
           h3="WavePlay"
-          p="Gesture Control"
+          p="Hand Gesture Control"
         />
       </div>
     </section>
